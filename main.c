@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main(void)
-{
-    int val1 = 12;
-    int val2 = 34;
-    int sum = val1 + val2;
-    printf("La ... de %d et %d fait : %d", val1, val2, sum);
+int main(void) {
+    int val_1 = 12;
+    int val_2 = 34;
+    int sum = val_1 + val_2;
+
+    printf("La somme de %d et %d fait : %d\n", val_1, val_2, sum);
     return 0;
 }
